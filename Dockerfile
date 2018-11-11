@@ -12,6 +12,4 @@ USER defaultUser
 CMD ["start"]
 ENTRYPOINT [ "/entry" ]
 
-COPY example-data /example-data
-COPY learned-settings /learned-settings
-COPY serving /data
+COPY src /data
